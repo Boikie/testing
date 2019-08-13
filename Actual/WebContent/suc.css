@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+
+.menu {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.menu a {
+	background-color: #ff80ff;
+	padding: 13px;
+	margin-top: 12px;
+	display: block;
+	width: 100%;
+	color: black;
+}
+
+.men a {
+	padding: 25px;
+	width: 100%;
+	text-align: bottom;
+}
+
+.main {
+	float: left;
+	width: 60%;
+	padding: 0 20px;
+}
+
+.right {
+	background-color: #169fb8;
+	float: left;
+	width: 20%;
+	padding: 100px;
+	margin-top: 7px;
+	text-align: center;
+}
+
+@media only screen and (max-width:620px) {
+	/* For mobile phones: */
+	.menu, .main, .right {
+		width: 100%;
+	}
+}
+
+body {
+	style ="font-family: Verdana;
+	color = white ;
+	background-image: url(th.jpg); background-attachment = fixed;
+	background-size =cover;
+	background-color: white;
+}
+
+h1 {
+	
+	padding: 5px;
+	font-family: Georgia;
+	text-shadow: 2px 2px 2px green;
+}

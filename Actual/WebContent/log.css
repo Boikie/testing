@@ -1,0 +1,63 @@
+h4{
+	color:orange;
+	
+  }
+
+div {
+	width : -40%;
+	border-radius: 15px;
+	background-image:url(butter.jpg);
+	padding: 20px;
+	border: 2px solid orange;
+	}
+
+body{
+	background-image:url(homewall.jpg);
+	background-attachment: fixed;
+	background-size:  cover;
+	}
+
+input[type=submit] {
+  width: 30%;
+  background-color: orange;
+  color: black;
+  padding: 12px;
+  margin: center;
+  border: 3px solid yellow;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family:Georgia;
+  font:18px bolder;
+  text-shadow:4px 4px 4px black;
+  font-weight: bold;
+  }
+  
+h3{
+  color:orange;
+  border: 2px solid blue;
+  border-radius: 7px;
+  padding: 5px;
+  background-color:black;
+  font-family:Georgia;
+  text-shadow: 2px 2px 2px white;
+  
+  }
+
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid green;
+  border-radius: 4px ;
+  box-sizing: border-box;
+                  }
+input[type=password] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid green;
+  border-radius: 4px;
+  box-sizing: border-box;
+ 					 }
